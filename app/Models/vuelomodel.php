@@ -4,9 +4,12 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class VueloModel extends Model
 {
-    public function subirvuelos($vuelos){
-        $this->db->insert('vuelos',$vuelos);
+    protected $table = 'vuelos';
+
+    public function subirvuelos($vuelos)
+    {
+        $this->insert($vuelos);
     }
 }

@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aereoz - Tu aerolínea de confianza</title>
+    <title>Aereoz</title>
     <link rel="stylesheet" href="<?= base_url ("estilo.css")?>"> <!-- Enlaza tu archivo de estilos CSS -->
     <link rel="icon" href="<?php echo base_url("/image/logoo.png") ?>" type="image/x-icon">
-    
 </head>
 <body>
     <header class="main-header">
@@ -19,7 +18,7 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="http://localhost/aereoz/public/">Registrarse</a></li>
                     <li><a href="http://localhost/aereoz/public/index.php/signin">Iniciar sesión</a></li>
-                    <li><a href="http://localhost/pruebitaashe/public/destinos">Destinos</a></li>
+                    <li><a href>Destinos</a></li>
                     <!-- Agrega más enlaces de navegación aquí -->
                 </ul>
             </nav>

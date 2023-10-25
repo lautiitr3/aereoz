@@ -12,3 +12,5 @@ $routes->match(['get', 'post'], 'SigninController/loginAuth', 'SigninController:
 $routes->get('/signin', 'SigninController::index');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 $routes->get('admin', 'ProfileController::admin');
+$routes->match(['get', 'post'],'VuelosController/subirvuelos', 'VuelosController::subirvuelos');
+$routes->match(['get', 'post'],'VuelosController/formulariovuelo', 'VuelosController::formulariovuelo');
