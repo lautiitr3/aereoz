@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* Estilos para la cabecera */
+.main-header {
+    background-color: rgb(164, 229, 250);
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 150px;
+
+}
+
+
+.logo {
+    margin-left: -330px;
+    margin-top: 100px; /* Añade un margen a la izquierda del logo */
+    height: 100px;
+    width: 100px;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    height: 150px;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: rgb(75, 174, 255);
+}
+
+/* Estilos para la sección hero */
+.hero {
+    background-image: url('image/baanner.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 150px 0;
+    width: 1300px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: rgb(75, 174, 255);
+}
+
+/* Estilos para la sección de destinos */
+.destinations {
+    padding: 50px 0;
+}
+
+.destination {
+    margin-bottom: 30px;
+    text-align: auto;
+}
+
+.destination img {
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destination h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.image img {
+    width: 100%;
+    height: 120%;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}

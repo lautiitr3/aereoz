@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f5;
+}
+
+/* Estilos para el encabezado */
+.main-header {
+    background-color: rgb(164, 229, 250);
+    color: white;
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: 100px;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #5757fd;
+}
+
+/* Estilos para el formulario */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.col-5 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 420px;
+    height: 400px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #529dff;
+}
+
+.alert {
+    background-color: #079cff;
+    color: #38baf7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 90%;
+}
+
+.d-grid {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #8ac4ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #47a2fd;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 100;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+footer a {
+    color: #33a3ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
