@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="estilon.css">
     <link rel="icon" href="<?php echo base_url("/images/logoo.png") ?>" type="image/x-icon">
-    <title>aereoz.com</title>
+    <title>Aereoz</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                     <li><a href="http://localhost/aereoz/public/index.php/profile">Inicio</a></li>
                     <li><a href="http://localhost/aereoz/public/">Registrarse</a></li>
                     <li><a href="http://localhost/aereoz/public/index.php/signin">Iniciar sesión</a></li>
-                    <li><a href="http://localhost/pruebitaashe/public/destinos">Destinos</a></li>
+                    <li><a href>Destinos</a></li>
                     <!-- Agrega más enlaces de navegación aquí -->
                 </ul>
             </nav>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?= base_url ("estilito.css")?>">
     <link rel="icon" href="<?php echo base_url("/images/logoo.png") ?>" type="image/x-icon">
-    <title>aereoz.com</title>
+    <title>Aereoz</title>
   </head>
   <body>
   <header class="main-header">
