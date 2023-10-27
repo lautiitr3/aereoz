@@ -1,0 +1,115 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Color de fondo celeste claro */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra el contenido en el medio */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-header {
+    background-color: #80ccff; /* Color de fondo azul claro */
+    color: #fff;
+    padding: 10px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 250px; /* Ajusta el tamaño de tu logo */
+    height: auto;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #50a4fd; /* Color de enlaces azul */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #50a5ff; /* Color del título azul */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #80ccff; /* Color de fondo del botón azul claro */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #469dfa; /* Color de fondo del botón azul oscuro al pasar el ratón */
+}
+form {
+    background-color: #e6f7ff; /* Color de fondo celeste claro */
+    padding: 20px;
+    border: 1px solid #007BFF; /* Borde azul alrededor del formulario */
+    border-radius: 10px;
+    width: 100%; /* Ancho del 100% para ocupar toda la página */
+    max-width: 600px; /* Limita el ancho máximo del formulario */
+    margin: 0 auto; /* Centra horizontalmente el formulario */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #007BFF; /* Color del texto de las etiquetas azul */
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #007BFF; /* Borde azul alrededor de los campos de entrada de texto */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Color de fondo del botón azul */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo del botón azul oscuro al pasar el ratón */
+}
