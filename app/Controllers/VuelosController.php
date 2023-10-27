@@ -25,5 +25,5 @@ class VuelosController extends Controller
     public function tuMetodo()
     {
         session()->setFlashdata('Mensaje', 'Vuelo subido correctamente.');
-    }
+    }   
 } 
