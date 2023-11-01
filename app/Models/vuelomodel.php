@@ -6,10 +6,23 @@ use CodeIgniter\Model;
 
 class VueloModel extends Model
 {
-    protected $table = 'vuelos';
+    protected $table = 'vuelo'; 
+    
+    protected $allowedFields = [
+        'id',
+        'origen',
+        'destino',
+        'precio',
+        'fecha',
+        'imagen',
+    ];
 
     public function subirvuelos($vuelos)
     {
         $this->insert($vuelos);
+    }
+    public function vervuelos()
+    {
+        return $this->findAll();
     }
 }

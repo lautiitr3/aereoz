@@ -12,18 +12,29 @@ class VuelosController extends Controller
     {
         $this->vueloModel = new VueloModel();
     }
-
+    public function vistasubirvuelos() 
+        {
+            return view('subirvuelos');
+        }
     public function subirvuelos() {
-        return view('subirvuelos');
+       
         $vuelomodelo = new VueloModel();
         $vuelos = array(
-            'Destino' => $this->request->getPost('destino'),
-            'Precio' => $this->request->getPost('precio'),
+            'destino' => $this->request->getPost('destino'),
+            'precio' => $this->request->getPost('precio'),
+            'origen' => $this->request->getPost('origen'),
+            'fecha' => $this->request->getPost('fecha'),
+            'imagen' => $this->request->getFile('imagen'),
         );
-    }
 
-    public function tuMetodo()
-    {
-        session()->setFlashdata('Mensaje', 'Vuelo subido correctamente.');
-    }   
+        $vuelomodelo->subirvuelos($vuelos);
+        return redirect()->to(base_url('VuelosController/destinos'));
+    }
+    public function destinos() 
+        {
+            $vuelomodelo = new VueloModel();
+            $vuelos['vuel']=$vuelomodelo->vervuelos();
+            return view('destinos', $vuelos);
+           
+        }   
 } 
