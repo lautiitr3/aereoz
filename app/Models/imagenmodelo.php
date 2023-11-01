@@ -10,6 +10,6 @@ class ImagenModel extends Model
     
     protected $allowedFields = [
         'id_imagen',
-        'imagen'
+        'nombre'
     ];
 }
