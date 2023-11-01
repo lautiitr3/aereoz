@@ -13,6 +13,7 @@ $routes->get('/signin', 'SigninController::index');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 $routes->get('admin', 'ProfileController::admin');
 //$routes->match(['get', 'post'],'VuelosController/subirvuelos', 'VuelosController::subirvuelos');
-$routes->get('VuelosController/subirvuelos', 'VuelosController::subirvuelos');
+$routes->get('VuelosController/vistasubirvuelos', 'VuelosController::vistasubirvuelos');
 $routes->match(['get', 'post'],'VuelosController/formulariovuelo', 'VuelosController::formulariovuelo');
-
+$routes->post('VuelosController/subirvuelos', 'VuelosController::subirvuelos');
+$routes->get('VuelosController/destinos', 'VuelosController::destinos');

@@ -25,7 +25,7 @@
     <h1>Panel de Administrador</h1>
     
     <!-- Botón para ir a la vista de subir vuelos -->
-    <a href="<?= base_url('VuelosController/subirvuelos'); ?>" class="btn btn-primary">Subir Vuelo</a>
+    <a href="<?= base_url('VuelosController/vistasubirvuelos'); ?>" class="btn btn-primary">Subir Vuelo</a>
 
     <!-- Otra información y contenido de administrador -->
 </body>
