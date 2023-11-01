@@ -24,29 +24,10 @@ class VuelosController extends Controller
             'precio' => $this->request->getPost('precio'),
             'origen' => $this->request->getPost('origen'),
             'fecha' => $this->request->getPost('fecha'),
+            'imagen' => $this->request->getFile('imagen'),
         );
-        //$vuelomodelo->subirvuelos($vuelos);
-        $coverImage = $this->request->getFile('imagen');
-        if($coverImage->isValid()){
-            if ($coverImage->getClientExension() === 'jpg'){
-                $targetFolder = FCPATH . '/image';
-                if (!is_dir($targetFolder)){
-                    mkdir($targetFolder,0777,true);
-                }
-                $coverImage->move($targetFolder);
-                $vueloData['imagen'] = $coverImage->getName();
-            }
-            else{
-                $error = "La imagen seleccionada no es un archivo JPG valido.";
-            }
-        } else{
-           $error = "Por favor, seleccione una imagen para subir.";
-        }
-        if(isset($error)){
-            echo $error;
-        }else {
 
-        }
+        $vuelomodelo->subirvuelos($vuelos);
         return redirect()->to(base_url('VuelosController/destinos'));
     }
     public function destinos() 
@@ -55,12 +36,5 @@ class VuelosController extends Controller
             $vuelos['vuel']=$vuelomodelo->vervuelos();
             return view('destinos', $vuelos);
            
-        }
-
-    public function tuMetodo()
-    {
-        session()->setFlashdata('Mensaje', 'Vuelo subido correctamente.');
-    }   
-
-   
+        }   
 } 
