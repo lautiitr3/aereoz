@@ -14,7 +14,7 @@ class VueloModel extends Model
         'destino',
         'precio',
         'fecha',
-        'imagen',
+        'id_imagen',
     ];
 
     public function subirvuelos($vuelos)

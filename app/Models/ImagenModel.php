@@ -12,4 +12,14 @@ class ImagenModel extends Model
         'id_imagen',
         'nombre'
     ];
+
+    public function subirvuelos($imagen)
+    {
+        $this->insert($imagen);
+    }
+
+    public function verimagen()
+    {
+        return $this->findAll();
+    }
 }
