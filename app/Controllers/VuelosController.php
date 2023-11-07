@@ -22,18 +22,21 @@ class VuelosController extends Controller
        
         $vuelomodelo = new VueloModel();
         $imagenmodelo = new ImagenModel();
-
+        
         $vuelos = new \App\Models\VueloModel();
         $ImagenModel = new \App\Models\ImagenModel();
-        $imagen = $this->request->getFile('imagenes');
-
+        $imagen = $this->request->getFile('imagen');
+        var_dump($imagen);
+        echo $imagen;  
         if ($imagen !== null && $imagen->isValid() && !$imagen->hasMoved()) {
+
             $nuevoNombreImagen = $imagen->getRandomName();
-            $imagen->move('image', $nuevoNombreImagen);
+           
+        //    $imagen->move('image', $nuevoNombreImagen);
+
             $rutaImagen = base_url('image/' . $nuevoNombreImagen);
-            $idNuevaImagen = $ImagenModel->insert([
-                "imagen" => $rutaImagen
-            ]);
+            echo   $rutaImagen ;
+            $idNuevaImagen = $ImagenModel->insert(["nombre" => $rutaImagen]);
 
             $vuelos = array(
                 'destino' => $this->request->getPost('destino'),
@@ -42,12 +45,15 @@ class VuelosController extends Controller
                 'fecha' => $this->request->getPost('fecha'),
                 'id_imagen' => $idNuevaImagen,
             );
-        }
-    
-       
+            var_dump($vuelos);
+            $vuelomodelo->subirvuelos($vuelos);
+            return redirect()->to(base_url('VuelosController/destinos'));
+       }else {
+          
+        var_dump($imagen);
 
-        $vuelomodelo->subirvuelos($vuelos);
-        return redirect()->to(base_url('VuelosController/destinos'));
+      }
+       
     }
     public function destinos() 
         {

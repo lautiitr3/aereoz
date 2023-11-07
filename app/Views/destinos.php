@@ -15,7 +15,7 @@
                 <td><?php echo $vuelos['destino']; ?></td>
                 <td><?php echo $vuelos['fecha']; ?></td>
                 <td><?php echo $vuelos['precio']; ?></td>
-                <img src="<?= base_url('image/'. $vuelos['imagen']);?>" alt="<?=$vuelos['destino'];?>">
+                <img src="<?= base_url('image/'. $vuelos['id_imagen']);?>" alt="<?=$vuelos['destino'];?>">
             </tr>
     </tbody>
 

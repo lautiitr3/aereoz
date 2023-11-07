@@ -19,6 +19,7 @@ class VueloModel extends Model
 
     public function subirvuelos($vuelos)
     {
+        var_dump($vuelos);
         $this->insert($vuelos);
     }
     public function vervuelos()

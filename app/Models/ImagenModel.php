@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class ImagenModel extends Model
 {
-    protected $table = 'imagen'; 
+    protected $table = 'imagenes'; 
     
     protected $allowedFields = [
         'id_imagen',
