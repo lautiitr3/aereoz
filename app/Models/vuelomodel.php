@@ -24,6 +24,10 @@ class VueloModel extends Model
     }
     public function vervuelos()
     {
-        return $this->findAll();
+        return $this->db->query(
+            "SELECT v.id,v.origen,v.destino,v.fecha,v.precio,i.nombre FROM vuelo AS v
+            INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen"
+        )->getResultArray();
     }
+
 }

@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>destinoss</title>
+    <title>Aereoz</title>
+    <link rel="stylesheet" href="<?= base_url ("estilos.css")?>">
+    <link rel="icon" href="<?php echo base_url("/image/logoo.png") ?>" type="image/x-icon">
 </head>
 <body>
-    <h1>Vuelos subidos</h1>
-    <tbody>
-        <?php foreach ($vuel as $vuelos):?>
+    <h1>Destinos</h1>
+    <table>
+        <thead>
             <tr>
-                <td><?php echo $vuelos['origen']; ?></td>
-                <td><?php echo $vuelos['destino']; ?></td>
-                <td><?php echo $vuelos['fecha']; ?></td>
-                <td><?php echo $vuelos['precio']; ?></td>
-                <img src="<?= base_url('image/'. $vuelos['id_imagen']);?>" alt="<?=$vuelos['destino'];?>">
+                <th>Origen</th>
+                <th>Destino</th>
+                <th>Fecha</th>
+                <th>Precio</th>
+                <th>Imagen</th>
             </tr>
-    </tbody>
-
-    <?php endforeach; ?>
+        </thead>
+        <tbody>
+            <?php foreach ($vuel as $vuelos):?>
+                <tr>
+                    <td><?php echo $vuelos['origen']; ?></td>
+                    <td><?php echo $vuelos['destino']; ?></td>
+                    <td><?php echo $vuelos['fecha']; ?></td>
+                    <td><?php echo $vuelos['precio']; ?></td>
+                    <td><img src="<?php echo $vuelos['nombre']; ?>" alt="<?php echo $vuelos['destino']; ?>"></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
 </body>
 </html>

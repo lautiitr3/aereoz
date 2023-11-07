@@ -41,7 +41,7 @@
         <img src="<?= base_url ("image/destino2.jpg")?>" alt="Imagen 2">
     </div>
     <div class="image">
-        <img src="<?= base_url ("image/destino3.jpg")?>" alt="Imagen 3">
+        <img src="<?= base_url ("image/holaa.jpg")?>" alt="Imagen 3">
     </div>
     
     <!-- Agrega más imágenes aquí -->
