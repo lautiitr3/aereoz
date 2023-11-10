@@ -9,35 +9,36 @@
     <h1>Reserva de Vuelo</h1>
     <div class="reserva-form">
         <h2>Completa tus datos de reserva:</h2>
-        <form action="<?= base_url('vuelos/procesar_reserva') ?>" method="post">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
+        <form action="<?= base_url('procesado') ?>" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-    <label for="apellidos">Apellidos:</label>
-    <input type="text" id="apellidos" name="apellidos" required>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    <label for="telefono">Teléfono:</label>
-    <input type="text" id="telefono" name="telefono" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
 
-    <label for="direccion">Dirección:</label>
-    <input type="text" id="direccion" name="direccion" required>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
 
-    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
 
-    <label for="nacionalidad">Nacionalidad:</label>
-    <input type="text" id="nacionalidad" name="nacionalidad" required>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" name="nacionalidad" required>
 
-    <!-- Otros campos adicionales que desees -->
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required>
 
-    <label for="asientos">Número de asientos:</label>
-    <input type="number" id="asientos" name="asientos" required>
+            <label for="asientos">Número de asientos:</label>
+            <input type="number" id="asientos" name="asientos" required>
 
-    <button type="submit" class="reservar-button">Confirmar Reserva</button>
-</form>
+            <button type="submit" class="reservar-button">Confirmar Reserva</button>
+        </form>
 
     </div>
 </body>
