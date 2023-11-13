@@ -8,6 +8,8 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\AdminFilter;
+
 
 class Filters extends BaseConfig
 {
@@ -65,11 +67,7 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-   // public array $filters = [
-   //     "SessionA" => [
-   //         "before" => [
-   //             '/admin','/subirvuelos'
-   //        ] 
-   //     ]
-   // ];   
+    
 }
+
+
