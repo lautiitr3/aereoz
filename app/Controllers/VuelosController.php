@@ -19,6 +19,7 @@ class VuelosController extends Controller
     public function vistasubirvuelos()
     {
         return view('subirvuelos');
+
     }
 
     public function subirvuelos()
@@ -58,4 +59,11 @@ class VuelosController extends Controller
         $vuelos['vuel'] = $vuelomodelo->vervuelos();
         return view('destinos', $vuelos);
     }
+
+    public function precio()
+    {
+        $Total= $this->request->getPost('precio');
+        return view ('metodos_pago',['precio' => $Total]);
+    }
+    
 }

@@ -3,12 +3,15 @@
 namespace App\Controllers;  
 use CodeIgniter\Controller;
 use App\Models\ReservaModel;
+use App\Models\VueloModel;
 
 class Reserva extends Controller
 {
-    public function procesar()
+    public function procesar($id_vuelo)
     {
-    return view('pagina_reserva');
+    
+    $data['id_vuelo'] = $id_vuelo;
+    return view('pagina_reserva', $data);
 
     }
     public function datossubidos()
@@ -27,7 +30,9 @@ class Reserva extends Controller
             'asientos' => $this->request->getPost('asientos'),
         );
         $model->procesar($data);
-        return view('metodos_pago');
+        $precio = new VueloModel();
+        $data['total']= $precio->verprecio();
+        return view('metodos_pago', $data);
     }
     
 }

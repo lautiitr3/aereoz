@@ -12,6 +12,9 @@
     <div class="reserva-form">
         <h2>Completa tus datos de reserva:</h2>
         <form action="<?= base_url('procesado') ?>" method="post">
+            
+            <input type="hidden" id="id_vuelo" name="id_vuelo" value="<?php echo $id_vuelo; ?>" >
+        
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 

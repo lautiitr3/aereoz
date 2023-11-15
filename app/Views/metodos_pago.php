@@ -20,10 +20,11 @@
                     label: 'pay',
                 },
                 createOrder: function(data, actions) {
+                    var Total = <?= $total ?>;
                     return actions.order.create({
                         purchase_units: [{
                             amount: {
-                                value: "12000"
+                                value: Total.toString()
                             }
                         }]
                     });

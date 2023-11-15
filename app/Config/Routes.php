@@ -17,7 +17,8 @@ $routes->get('VuelosController/vistasubirvuelos', 'VuelosController::vistasubirv
 $routes->match(['get', 'post'],'VuelosController/formulariovuelo', 'VuelosController::formulariovuelo');
 $routes->post('VuelosController/subirvuelos', 'VuelosController::subirvuelos');
 $routes->get('VuelosController/destinos', 'VuelosController::destinos');
-$routes->get('pagina_reserva', 'Reserva::procesar');
+$routes->get('pagina_reserva/(:num)', 'Reserva::procesar/$1');
 $routes->get('confirmar_reserva', 'Reserva::datossubidos');
 $routes->post('procesado', 'Reserva::datossubidos');
+$routes->post('/confirmar','VuelosController::confirmar');
 

@@ -21,8 +21,7 @@
                     <p>Origen: <?php echo $vuelos['origen']; ?></p>
                     <p>Fecha: <?php echo $vuelos['fecha']; ?></p>
                     <p>Precio: <?php echo $vuelos['precio']; ?></p>
-                    <!-- Enlace a la página de reserva -->
-<a class="reserve-link" href="<?= base_url('pagina_reserva') ?>"> <button class="reserve-button">Reservar</button></a>
+                    <a class="reserve-link" href="<?= base_url('pagina_reserva/').$vuelos['id_vuelo'] ?>"> <button class="reserve-button">Reservar</button></a>
                 </div>
             </div>
         <?php endforeach; ?>
