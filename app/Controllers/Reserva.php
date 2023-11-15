@@ -27,8 +27,7 @@ class Reserva extends Controller
             'asientos' => $this->request->getPost('asientos'),
         );
         $model->procesar($data);
-        return view('procesar_reserva');
+        return view('metodos_pago');
     }
-
-
+    
 }
