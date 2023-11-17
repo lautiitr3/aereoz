@@ -17,7 +17,7 @@ class Reserva extends Controller
     public function datossubidos()
     {
         $model = new ReservaModel();
-
+        $id_vuelo=$this->request->getPost('id_vuelo');
         $data = array(
             'nombre' => $this->request->getPost('nombre'),
             'apellidos' => $this->request->getPost('apellidos'),
@@ -31,8 +31,9 @@ class Reserva extends Controller
         );
         $model->procesar($data);
         $precio = new VueloModel();
-        $data['total']= $precio->verprecio();
-        return view('metodos_pago', $data);
+        $datos['total']= $precio->verprecio($id_vuelo);
+        //var_dump($datos);
+        return view('metodos_pago', $datos);
     }
     
 }

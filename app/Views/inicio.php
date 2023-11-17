@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aereoz</title>
-    <link rel="stylesheet" href="<?= base_url ("estilo.css")?>"> <!-- Enlaza tu archivo de estilos CSS -->
+    <link rel="stylesheet" href="<?= base_url ("estilo.css")?>">
     <link rel="icon" href="<?php echo base_url("/image/logoo.png") ?>" type="image/x-icon">
 </head>
 <body>
@@ -19,7 +19,6 @@
                     <li><a href="http://localhost/aereoz/public/">Registrarse</a></li>
                     <li><a href="http://localhost/aereoz/public/index.php/signin">Iniciar sesión</a></li>
                     <li><a href="http://localhost/aereoz/public/VuelosController/destinos"> Destinos</a></li>
-                    <!-- Agrega más enlaces de navegación aquí -->
                 </ul>
             </nav>
         </div>
@@ -30,7 +29,7 @@
             
             <h2>Descubre el mundo con Aereoz</h2>
             <p>Encuentra los mejores vuelos y destinos para tus próximas aventuras.</p>
-            <a href="" class="btn">Reservar ahora</a>
+            <a href="http://localhost/aereoz/public/VuelosController/destinos" class="btn">Reservar ahora</a>
         </div>
     </section>
     <section class="image-gallery">
@@ -43,9 +42,7 @@
     <div class="image">
         <img src="<?= base_url ("image/holaa.jpg")?>" alt="Imagen 3">
     </div>
-    
-    <!-- Agrega más imágenes aquí -->
-</section>
+    </section>
     
     <footer>
         <div class="container">

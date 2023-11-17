@@ -1,39 +1,86 @@
-/* Estilos para el fondo de la página */
 body {
-  background-color: #e0e0ff; /* Color de fondo celeste pastel */
-  font-family: 'Arial', sans-serif; /* Fuente para todo el cuerpo de la página */
-  margin: 0; /* Elimina el margen predeterminado del cuerpo de la página */
-  padding: 0; /* Elimina el relleno predeterminado del cuerpo de la página */
+  background-color: #e0e0ff;
+  font-family: 'Arial', sans-serif; 
+  margin: 0; 
+  padding: 0; 
 }
 
-/* Estilos para el título "Destinos" */
+.containerr {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+
+.mainnnn {
+  background-color: #e0e0ff;
+  color: white;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 150px;
+
+}
+
+
+.logo {
+  margin-left: -330px;
+  margin-top: 100px; 
+  height: 100px;
+  width: 100px;
+}
+
+.logo img {
+  height: 150px;
+  width: 150px;
+}
+
+.mainnav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  height: 150px;
+}
+
+.mainnav li {
+  margin-right: 20px;
+}
+
+.mainnav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.mainnav a:hover {
+  color: rgb(75, 174, 255);
+}
+
 h1 {
   text-align: center;
-  font-size: 36px; /* Tamaño grande para el título */
-  background-color: #0074D9; /* Color de fondo azul para el título */
-  color: #fff; /* Color de texto blanco para el título */
-  padding: 20px; /* Espaciado alrededor del título */
+  font-size: 36px;
+  background-color: #e0e0ff; 
+  color: #000000; 
 }
 
-/* Estilos para el contenedor de vuelos */
-
-/* Estilos para el contenedor de vuelos */
 .flight-alternative {
   display: flex;
   border: 1px solid #ccc;
   margin: 10px;
   padding: 10px;
-  background-color: #e0e0ff; /* Color de fondo celeste pastel */
+  background-color: #e0e0ff; 
 }
 
-/* Estilos para el contenedor de la imagen de vuelo (más grande) */
+
 .flight-image {
-  width: 250px; /* Tamaño deseado para la imagen */
-  height: 250px; /* Tamaño deseado para la imagen */
+  width: 250px;
+  height: 250px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 20px; /* Espacio entre la imagen y los datos */
+  margin-right: 20px; 
 }
 
 .flight-image img {
@@ -42,20 +89,19 @@ h1 {
   object-fit: cover;
 }
 
-/* Estilos para el contenedor de datos del vuelo */
 .flight-details {
-  font-family: 'Arial', sans-serif; /* Cambio de fuente a Arial o cualquier fuente deseada */
+  font-family: 'Arial', sans-serif; 
   padding: 10px;
-  margin-right: 20px; /* Espacio entre la imagen y los datos */
+  margin-right: 20px; 
 }
 
-/* Estilos para el destino destacado */
+
 .destination {
   font-weight: bold;
-  color: #0074D9; /* Color azul para el destino */
+  color: #0074D9; 
 }
 
-/* Estilos para el botón de reserva */
+
 .reserve-button {
   background-color: #0074D9;
   color: #fff;

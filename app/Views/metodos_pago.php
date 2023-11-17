@@ -20,7 +20,7 @@
                     label: 'pay',
                 },
                 createOrder: function(data, actions) {
-                    var Total = <?= $total ?>;
+                    var Total = <?= $total[0]['precio'] ?>;
                     return actions.order.create({
                         purchase_units: [{
                             amount: {

@@ -30,11 +30,11 @@ class VueloModel extends Model
             INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen"
         )->getResultArray();
     }
-    public function verprecio()
+    public function verprecio($id_vuelo)
     {
         return $this->db->query(
-            "SELECT v.id_vuelo, v.precio FROM vuelo AS v"
-        );
+            "SELECT v.id_vuelo, v.precio FROM vuelo AS v where id_vuelo=$id_vuelo"
+        )->getResultArray();
     }
 
 }

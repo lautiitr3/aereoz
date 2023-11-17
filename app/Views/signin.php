@@ -19,7 +19,6 @@
                     <li><a href="http://localhost/aereoz/public/">Registrarse</a></li>
                     <li><a href="http://localhost/aereoz/public/index.php/signin">Iniciar sesión</a></li>
                     <li><a href="http://localhost/aereoz/public/VuelosController/destinos">Destinos</a></li>
-                    <!-- Agrega más enlaces de navegación aquí -->
                 </ul>
             </nav>
         </div>

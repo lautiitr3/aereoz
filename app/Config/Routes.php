@@ -16,9 +16,9 @@ $routes->get('admin', 'ProfileController::admin');
 $routes->get('VuelosController/vistasubirvuelos', 'VuelosController::vistasubirvuelos');
 $routes->match(['get', 'post'],'VuelosController/formulariovuelo', 'VuelosController::formulariovuelo');
 $routes->post('VuelosController/subirvuelos', 'VuelosController::subirvuelos');
-$routes->get('VuelosController/destinos', 'VuelosController::destinos');
-$routes->get('pagina_reserva/(:num)', 'Reserva::procesar/$1');
-$routes->get('confirmar_reserva', 'Reserva::datossubidos');
-$routes->post('procesado', 'Reserva::datossubidos');
-$routes->post('/confirmar','VuelosController::confirmar');
+$routes->get('VuelosController/destinos', 'VuelosController::destinos',['filter' => 'authGuard']);
+$routes->get('pagina_reserva/(:num)', 'Reserva::procesar/$1',['filter' => 'authGuard']);
+$routes->get('confirmar_reserva', 'Reserva::datossubidos',['filter' => 'authGuard']);
+$routes->post('procesado', 'Reserva::datossubidos',['filter' => 'authGuard']);
+$routes->post('/confirmar','VuelosController::confirmar',['filter' => 'authGuard']);
 

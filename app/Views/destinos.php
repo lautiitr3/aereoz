@@ -2,13 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aereoz</title>
-    <link rel="stylesheet" href="<?= base_url("estilos_alternativos.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("/estilos_alternativos.css")?>"> 
     <link rel="icon" href="<?php echo base_url("/image/logoo.png") ?>" type="image/x-icon">
 </head>
 <body>
+    <header class="mainnnn">
+        <div class="containerr">
+            <div class="logo">
+                <img src="<?php echo base_url("/image/logon.png")?>" alt="Aereoz Logo">
+            </div>
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="http://localhost/aereoz/public/">Registrarse</a></li>
+                    <li><a href="http://localhost/aereoz/public/index.php/signin">Iniciar sesión</a></li>
+                    <li><a href="http://localhost/aereoz/public/VuelosController/destinos"> Destinos</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+    </header>
     <h1>Destinos</h1>
     <div class="flight-list">
         <?php foreach ($vuel as $vuelos): ?>
