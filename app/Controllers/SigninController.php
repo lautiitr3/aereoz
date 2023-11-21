@@ -34,6 +34,7 @@ class SigninController extends Controller
                     'id_rango' => $data['id_rango'],
                     'isLoggedIn' => TRUE
                 ];
+
                 $session->set($ses_data);
                 $r=($data['id_rango']);
                 if ($r == 1) 

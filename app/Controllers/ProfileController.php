@@ -10,6 +10,7 @@ class ProfileController extends Controller
     {
        return view ('inicio');
     }
+    
     public function admin()
     {
         return view ('admin');

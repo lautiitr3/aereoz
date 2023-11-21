@@ -4,20 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?= base_url ("estilito.css")?>">
-    <link rel="icon" href="<?php echo base_url("/images/logoo.png") ?>" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url("/image/logoo.png") ?>" type="image/x-icon">
     <title>Aereoz</title>
   </head>
   <body>
   <header class="main-header">
         <div class="header-content">
             <div class="logo">
-                <img src="<?php echo base_url("/images/logon.png")?>" alt="Aereoz Logo">
+                <img src="<?php echo base_url("/image/logon.png")?>" alt="Aereoz Logo">
             </div>
             <nav class="main-nav">
                 <ul>
                     <li><a href="http://localhost/aereoz/public/index.php/profile">Inicio</a></li>
                     <li><a href="http://localhost/aereoz/public/">Registrarse</a></li>
-                    <li><a href="http://localhost/aereoz/public/index.php/signin">Iniciar sesión</a></li>
                     <li><a href="http://localhost/aereoz/public/VuelosController/destinos">Destinos</a></li>
                 </ul>
             </nav>
