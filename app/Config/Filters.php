@@ -8,6 +8,9 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use CodeIgniter\Filters\Adminfiltro;
+
+
 
 class Filters extends BaseConfig
 {
@@ -23,6 +26,7 @@ class Filters extends BaseConfig
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
 		'authGuard' => \App\Filters\AuthGuard::class,
+        'Adminfiltro' => \App\Filters\Adminfiltro::class,
     ];
 
     /**
@@ -65,5 +69,13 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+        "Adminfiltro" => [
+            "before" => [
+                '/admis','/subirvuelos'
+            ]
+        ],
+    ];
 }
+
+

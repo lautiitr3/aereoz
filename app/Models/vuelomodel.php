@@ -9,20 +9,32 @@ class VueloModel extends Model
     protected $table = 'vuelo'; 
     
     protected $allowedFields = [
-        'id',
+        'id_vuelo',
         'origen',
         'destino',
         'precio',
         'fecha',
-        'imagen',
+        'id_imagen',
+        'id_avion',
     ];
 
     public function subirvuelos($vuelos)
     {
+        var_dump($vuelos);
         $this->insert($vuelos);
     }
     public function vervuelos()
     {
-        return $this->findAll();
+        return $this->db->query(
+            "SELECT v.id_vuelo,v.origen,v.destino,v.fecha,v.precio,i.nombre FROM vuelo AS v
+            INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen"
+        )->getResultArray();
     }
+    public function verprecio($id_vuelo)
+    {
+        return $this->db->query(
+            "SELECT v.id_vuelo, v.precio FROM vuelo AS v where id_vuelo=$id_vuelo"
+        )->getResultArray();
+    }
+
 }
