@@ -1,0 +1,140 @@
+INFO - 2023-11-07 19:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 19:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 22:20:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''vuelo' AS v
+            INNER JOIN 'imagenes' AS i ON i.id_imagen = v.id' at line 1 in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 'v.id','...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 'v.id','...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 'v.id','...')
+#3 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT 'v.id','...')
+#4 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#7 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 22:20:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''vuelo' AS v
+            INNER JOIN 'imagenes' AS i ON i.id_imagen = v.id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\vuelomodel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT \'v.id\',\'v.origen\',\'v.destino\',\'v.fecha\',\'v.precio\',\'i.nombre\' FROM \'vuelo\' AS v
+            INNER JOIN \'imagenes\' AS i ON i.id_imagen = v.id')
+ 2 APPPATH\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 22:22:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''vuelo' AS v
+            INNER JOIN 'imagenes' AS i ON i.id_imagen = v.id_im...' at line 1 in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 'v.id','...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 'v.id','...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 'v.id','...')
+#3 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT 'v.id','...')
+#4 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#7 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 22:22:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''vuelo' AS v
+            INNER JOIN 'imagenes' AS i ON i.id_imagen = v.id_im...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\vuelomodel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT \'v.id\',\'v.origen\',\'v.destino\',\'v.fecha\',\'v.precio\',\'i.nombre\' FROM \'vuelo\' AS v
+            INNER JOIN \'imagenes\' AS i ON i.id_imagen = v.id_imagen')
+ 2 APPPATH\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 22:22:28 --> Cannot use object of type mysqli as array
+in APPPATH\Views\destinos.php on line 26.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 4 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 22:22:28 --> Cannot use object of type mysqli as array
+in APPPATH\Views\destinos.php on line 26.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 4 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 22:22:28 --> Cannot use object of type mysqli as array
+in APPPATH\Views\destinos.php on line 26.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 4 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 22:23:09 --> Undefined array key "origen"
+in APPPATH\Views\destinos.php on line 26.
+ 1 APPPATH\Views\destinos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origen"', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 22:23:39 --> Undefined array key "destino"
+in APPPATH\Views\destinos.php on line 27.
+ 1 APPPATH\Views\destinos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "destino"', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 22:25:12 --> Undefined array key "v.origen"
+in APPPATH\Views\destinos.php on line 26.
+ 1 APPPATH\Views\destinos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "v.origen"', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 22:25:25 --> Undefined array key "v.destino"
+in APPPATH\Views\destinos.php on line 27.
+ 1 APPPATH\Views\destinos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "v.destino"', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 23:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 23:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,525 @@
+INFO - 2023-10-31 19:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 19:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-31 19:30:32 --> mysqli_sql_exception: Column 'Destino' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 19:30:33 --> Column 'Destino' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 19:43:03 --> mysqli_sql_exception: Column 'Destino' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 19:43:03 --> Column 'Destino' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 19:43:04 --> mysqli_sql_exception: Column 'Destino' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 19:43:04 --> Column 'Destino' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 19:43:17 --> mysqli_sql_exception: Column 'Destino' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 19:43:17 --> Column 'Destino' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 19:43:48 --> mysqli_sql_exception: Column 'Destino' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 19:43:48 --> Column 'Destino' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 19:43:54 --> mysqli_sql_exception: Column 'Destino' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 19:43:54 --> Column 'Destino' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 20:31:20 --> mysqli_sql_exception: Column 'Destino' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 20:31:20 --> Column 'Destino' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(23): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-31 20:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 20:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-31 21:00:09 --> mysqli_sql_exception: Table 'aereoz.vuelos' doesn't exist in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(19): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(24): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 21:00:09 --> Table 'aereoz.vuelos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelos` (`Destino`, `Precio`) VALUES (:Destino:, :Precio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(24): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 21:00:46 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(21): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\VuelosController.php(24): App\Models\VueloModel->subirvuelos([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-31 21:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-31 21:32:53 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(34): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 21:33:57 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(34): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 21:35:51 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(34): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 21:35:52 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(34): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 21:36:15 --> Undefined variable $vuelos
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuelos', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(34): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 21:36:16 --> Undefined variable $vuelos
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuelos', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(34): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 21:36:36 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(34): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-31 21:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 21:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-31 21:57:01 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(30): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-31 22:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 22:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 22:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 22:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-31 22:02:39 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(31): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-31 22:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 22:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 22:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 22:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-31 22:06:34 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(31): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 22:09:49 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(30): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 22:15:04 --> Undefined variable $vuel
+in APPPATH\Views\destinos.php on line 12.
+ 1 APPPATH\Views\destinos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(31): view('destinos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 22:20:28 --> mysqli_sql_exception: Column 'imagen' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(29): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 22:20:28 --> Column 'imagen' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelo` (`destino`, `precio`, `origen`, `fecha`, `imagen`) VALUES (:destino:, :precio:, :origen:, :fecha:, :imagen:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(29): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 22:30:41 --> mysqli_sql_exception: Column 'imagen' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(29): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 22:30:41 --> Column 'imagen' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelo` (`destino`, `precio`, `origen`, `fecha`, `imagen`) VALUES (:destino:, :precio:, :origen:, :fecha:, :imagen:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(29): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 22:31:55 --> mysqli_sql_exception: Column 'imagen' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `vu...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vu...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vu...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vu...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(29): App\Models\VueloModel->subirvuelos(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-31 22:31:55 --> Column 'imagen' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vuelo` (`destino`, `precio`, `origen`, `fecha`, `imagen`) VALUES (:destino:, :precio:, :origen:, :fecha:, :imagen:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\VuelosController.php(29): App\Models\VueloModel->subirvuelos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 23:41:48 --> Call to a member function isValid() on null
+in APPPATH\Controllers\VuelosController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 23:49:29 --> Call to a member function getClientExension() on null
+in APPPATH\Controllers\VuelosController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 23:50:39 --> Call to a member function getClientExension() on null
+in APPPATH\Controllers\VuelosController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 23:50:49 --> Call to a member function getClientExension() on null
+in APPPATH\Controllers\VuelosController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 23:52:02 --> Call to a member function isValid() on null
+in APPPATH\Controllers\VuelosController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 23:58:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\VuelosController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

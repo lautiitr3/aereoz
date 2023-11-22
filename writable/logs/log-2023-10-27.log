@@ -1,0 +1,80 @@
+INFO - 2023-10-27 21:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 22:00:42 --> Undefined variable $flights
+in APPPATH\Views\admin.php on line 26.
+ 1 APPPATH\Views\admin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flights', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 22:01:33 --> Undefined variable $flights
+in APPPATH\Views\admin.php on line 26.
+ 1 APPPATH\Views\admin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flights', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 22:06:34 --> Undefined variable $persona
+in APPPATH\Views\admin.php on line 39.
+ 1 APPPATH\Views\admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persona', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 22:08:54 --> Undefined variable $persona
+in APPPATH\Views\admin.php on line 39.
+ 1 APPPATH\Views\admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persona', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 22:08:55 --> Undefined variable $persona
+in APPPATH\Views\admin.php on line 39.
+ 1 APPPATH\Views\admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persona', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 22:08:55 --> Undefined variable $persona
+in APPPATH\Views\admin.php on line 39.
+ 1 APPPATH\Views\admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persona', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 23:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 23:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

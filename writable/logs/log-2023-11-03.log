@@ -1,0 +1,221 @@
+INFO - 2023-11-03 20:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 20:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 20:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 20:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 20:53:32 --> Class "App\Controllers\ImagenModel" not found
+in APPPATH\Controllers\VuelosController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:53:56 --> Class "App\Controllers\imagenmodelo" not found
+in APPPATH\Controllers\VuelosController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:54:32 --> Undefined variable $imagenModel
+in APPPATH\Controllers\VuelosController.php on line 30.
+ 1 APPPATH\Controllers\VuelosController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:56:02 --> Class "App\Controllers\ImagenModel" not found
+in APPPATH\Controllers\VuelosController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:58:02 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:58:26 --> Undefined variable $imagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:59:15 --> Undefined variable $imagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:59:16 --> Undefined variable $imagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:02:08 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:02:09 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:02:10 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:02:10 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:02:10 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:02:11 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:02:11 --> Undefined variable $ImagenModel
+in APPPATH\Controllers\VuelosController.php on line 32.
+ 1 APPPATH\Controllers\VuelosController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ImagenModel', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:04:16 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 27.
+ 1 APPPATH\Controllers\VuelosController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:06:26 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\VuelosController.php(34): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:07:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\VuelosController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:10:22 --> Call to a member function isValid() on null
+in APPPATH\Controllers\VuelosController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:10:52 --> Undefined variable $vuelos
+in APPPATH\Controllers\VuelosController.php on line 48.
+ 1 APPPATH\Controllers\VuelosController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuelos', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:12:44 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:14:24 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:15:12 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:19:10 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:20:08 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:48:58 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:50:28 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:51:00 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\vuelomodel.php(22): CodeIgniter\Model->insert(Object(App\Models\VueloModel))
+ 4 APPPATH\Controllers\VuelosController.php(49): App\Models\VueloModel->subirvuelos(Object(App\Models\VueloModel))
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

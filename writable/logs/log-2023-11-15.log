@@ -1,0 +1,257 @@
+INFO - 2023-11-15 00:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 00:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 19:00:21 --> Undefined variable $total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:02:02 --> Undefined variable $total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:02:32 --> Undefined variable $total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:03:26 --> Undefined variable $total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:04:51 --> Undefined variable $total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:04:52 --> Undefined variable $total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:04:52 --> Undefined variable $total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:05:59 --> Undefined variable $Total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:06:00 --> Undefined variable $Total
+in APPPATH\Views\destinos.php on line 31.
+ 1 APPPATH\Views\destinos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\destinos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('destinos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(59): view('destinos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:08:41 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:15:46 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:16:53 --> Undefined variable $TOTAL
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TOTAL', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:22:29 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:26:28 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:33:53 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:35:23 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 23.
+ 1 APPPATH\Views\metodos_pago.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:36:19 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 23.
+ 1 APPPATH\Views\metodos_pago.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:43:53 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 23.
+ 1 APPPATH\Views\metodos_pago.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 19:44:12 --> Undefined variable $Total
+in APPPATH\Views\metodos_pago.php on line 23.
+ 1 APPPATH\Views\metodos_pago.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Total', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-15 19:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:42:29 --> Class "App\Controllers\VueloModel" not found
+in APPPATH\Controllers\Reserva.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 20:43:09 --> Class "App\Controllers\VueloModel" not found
+in APPPATH\Controllers\Reserva.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 20:43:40 --> Array to string conversion
+in APPPATH\Views\metodos_pago.php on line 23.
+ 1 APPPATH\Views\metodos_pago.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(35): view('metodos_pago', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 20:44:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\metodos_pago.php on line 23.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 4 APPPATH\Controllers\Reserva.php(35): view('metodos_pago', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
