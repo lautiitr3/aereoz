@@ -21,4 +21,6 @@ $routes->get('pagina_reserva/(:num)', 'Reserva::procesar/$1',['filter' => 'authG
 $routes->get('confirmar_reserva', 'Reserva::datossubidos',['filter' => 'authGuard']);
 $routes->post('procesado', 'Reserva::datossubidos',['filter' => 'authGuard']);
 $routes->post('/confirmar','VuelosController::confirmar',['filter' => 'authGuard']);
+$routes->get('/logout', 'SigninController::logout');
+$routes->get('/reserva','Reserva::reserva');
 

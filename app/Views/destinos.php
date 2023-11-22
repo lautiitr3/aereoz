@@ -17,7 +17,13 @@
                 <ul>
                     <li><a href="http://localhost/aereoz/public/index.php/profile">Inicio</a></li>
                     <li><a href="http://localhost/aereoz/public/VuelosController/destinos"> Destinos</a></li>
-                  
+                    <?php if (!session()->get('isLoggedIn')) : ?>
+                    <li><a href="<?= site_url('/signin') ?>">Iniciar sesión</a></li>
+                     <?php endif; ?>
+                    <li><?php if (session()->get('isLoggedIn')) : ?>
+                        <a href="<?= site_url('/logout') ?>">Cerrar Sesion</a>
+                        <?php endif; ?>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -39,5 +45,10 @@
             </div>
         <?php endforeach; ?>
     </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Aereoz. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

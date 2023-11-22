@@ -14,6 +14,7 @@ class Reserva extends Controller
     return view('pagina_reserva', $data);
 
     }
+
     public function datossubidos()
     {
         $model = new ReservaModel();
@@ -36,4 +37,8 @@ class Reserva extends Controller
         return view('metodos_pago', $datos);
     }
     
+    public function reserva()
+    {
+        return view ('procesar_reserva');
+    }
 }

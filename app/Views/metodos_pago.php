@@ -9,6 +9,26 @@
     <link rel="icon" href="<?php echo base_url("/image/logoo.png") ?>" type="image/x-icon">
 </head>
 <body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="<?php echo base_url("/image/logon.png")?>" alt="Aereoz Logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="http://localhost/aereoz/public/index.php/profile">Inicio</a></li>
+                    <li><a href="http://localhost/aereoz/public/VuelosController/destinos"> Destinos</a></li>
+                    <?php if (!session()->get('isLoggedIn')) : ?>
+                    <li><a href="<?= site_url('/signin') ?>">Iniciar sesión</a></li>
+                     <?php endif; ?>
+                    <li><?php if (session()->get('isLoggedIn')) : ?>
+                        <a href="<?= site_url('/logout') ?>">Cerrar Sesion</a>
+                        <?php endif; ?>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <h1>Seleccione su método de pago</h1>
     <div id="paypal-button-container"></div>
 
@@ -35,7 +55,7 @@
                 },
                 onApprove: function(data, actions) {
                     actions.order.capture().then(function(details) {
-                        window.location.href = "<?= base_url('inicio') ?>";
+                        window.location.href = "<?= base_url('reserva') ?>";
                     });
                 }
             }).render('#paypal-button-container').then(function() {
