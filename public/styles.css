@@ -49,3 +49,42 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+/* Estilos para el encabezado */
+.main-header {
+    background-color: #87CEEB; /* Celeste */
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header .logo img {
+    max-width: 80px; /* Tamaño más pequeño */
+    height: auto;
+}
+
+.main-nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}

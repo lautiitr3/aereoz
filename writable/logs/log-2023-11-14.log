@@ -1,0 +1,163 @@
+INFO - 2023-11-14 19:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 19:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 19:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 19:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 19:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 19:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-14 20:18:36 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\ReservaModel.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\Reserva.php(29): App\Models\ReservaModel->procesar(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-14 20:18:36 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reservas` (`nombre`, `apellidos`, `email`, `telefono`, `direccion`, `fecha_nacimiento`, `nacionalidad`, `dni`, `asientos`) VALUES (:nombre:, :apellidos:, :email:, :telefono:, :direccion:, :fecha_nacimiento:, :nacionalidad:, :dni:, :asientos:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ReservaModel.php(28): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Reserva.php(29): App\Models\ReservaModel->procesar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 20:18:37 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\ReservaModel.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\Reserva.php(29): App\Models\ReservaModel->procesar(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-14 20:18:37 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reservas` (`nombre`, `apellidos`, `email`, `telefono`, `direccion`, `fecha_nacimiento`, `nacionalidad`, `dni`, `asientos`) VALUES (:nombre:, :apellidos:, :email:, :telefono:, :direccion:, :fecha_nacimiento:, :nacionalidad:, :dni:, :asientos:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ReservaModel.php(28): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Reserva.php(29): App\Models\ReservaModel->procesar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 20:18:50 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\aereoz\app\Models\ReservaModel.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\aereoz\app\Controllers\Reserva.php(29): App\Models\ReservaModel->procesar(Array)
+#9 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+#10 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#11 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-14 20:18:50 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reservas` (`nombre`, `apellidos`, `email`, `telefono`, `direccion`, `fecha_nacimiento`, `nacionalidad`, `dni`, `asientos`) VALUES (:nombre:, :apellidos:, :email:, :telefono:, :direccion:, :fecha_nacimiento:, :nacionalidad:, :dni:, :asientos:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ReservaModel.php(28): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Reserva.php(29): App\Models\ReservaModel->procesar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 20:28:03 --> Call to undefined method CodeIgniter\Router\RouteCollection::name()
+in APPPATH\Config\Routes.php on line 24.
+ 1 SYSTEMPATH\Router\RouteCollection.php(339): require()
+ 2 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 22:10:49 --> mysqli_sql_exception: Unknown column 'v.id' in 'field list' in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT v.id,v.o...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT v.id,v.o...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT v.id,v.o...')
+#3 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT v.id,v.o...')
+#4 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#7 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 22:10:49 --> Unknown column 'v.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\vuelomodel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT v.id,v.origen,v.destino,v.fecha,v.precio,i.nombre FROM vuelo AS v
+            INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen')
+ 2 APPPATH\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-14 22:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-14 22:10:53 --> mysqli_sql_exception: Unknown column 'v.id' in 'field list' in C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT v.id,v.o...', 0)
+#1 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT v.id,v.o...')
+#2 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT v.id,v.o...')
+#3 C:\xampp1\htdocs\aereoz\app\Models\vuelomodel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT v.id,v.o...')
+#4 C:\xampp1\htdocs\aereoz\app\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+#5 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+#6 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+#7 C:\xampp1\htdocs\aereoz\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\aereoz\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 22:10:53 --> Unknown column 'v.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\vuelomodel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT v.id,v.origen,v.destino,v.fecha,v.precio,i.nombre FROM vuelo AS v
+            INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen')
+ 2 APPPATH\Controllers\VuelosController.php(58): App\Models\VueloModel->vervuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->destinos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 22:21:41 --> Undefined variable $vuelos
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuelos', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 23:59:59 --> Undefined variable $vuelos
+in APPPATH\Views\metodos_pago.php on line 26.
+ 1 APPPATH\Views\metodos_pago.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vuelos', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\metodos_pago.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('metodos_pago', [], true)
+ 5 APPPATH\Controllers\Reserva.php(30): view('metodos_pago')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reserva->datossubidos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

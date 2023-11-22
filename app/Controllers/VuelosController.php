@@ -20,8 +20,8 @@ class VuelosController extends Controller
 
     public function vistasubirvuelos()
     {
+        echo view ('header_admin');
         return view('subirvuelos');
-
     }
 
     public function subirvuelos()
@@ -60,6 +60,7 @@ class VuelosController extends Controller
         $vuelomodelo = new VueloModel();
         $vuelos['vuel'] = $vuelomodelo->vervuelos();
         return view('destinos', $vuelos);
+        echo view ('footer_view');
     }
 
     public function precio()

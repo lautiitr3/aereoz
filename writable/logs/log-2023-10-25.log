@@ -1,0 +1,124 @@
+CRITICAL - 2023-10-25 20:19:28 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:20:02 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:20:03 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:20:03 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:20:03 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:21:47 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:21:47 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:21:48 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:21:48 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 10.
+ 1 APPPATH\Controllers\VuelosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:23:18 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 13.
+ 1 APPPATH\Controllers\VuelosController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:23:19 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 13.
+ 1 APPPATH\Controllers\VuelosController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:23:19 --> Undefined property: App\Controllers\VuelosController::$load
+in APPPATH\Controllers\VuelosController.php on line 13.
+ 1 APPPATH\Controllers\VuelosController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VuelosController::$load', 'C:\\xampp1\\htdocs\\aereoz\\app\\Controllers\\VuelosController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:36:36 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\VuelosController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:36:37 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\VuelosController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:36:37 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\VuelosController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:38:04 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\subirvuelos.php on line 10.
+ 1 APPPATH\Views\subirvuelos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\subirvuelos.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\subirvuelos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('subirvuelos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(17): view('subirvuelos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 20:38:27 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\subirvuelos.php on line 10.
+ 1 APPPATH\Views\subirvuelos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp1\\htdocs\\aereoz\\app\\Views\\subirvuelos.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\aereoz\\app\\Views\\subirvuelos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('subirvuelos', [], true)
+ 5 APPPATH\Controllers\VuelosController.php(17): view('subirvuelos')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VuelosController->subirvuelos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VuelosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

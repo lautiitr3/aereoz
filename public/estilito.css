@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,7 +13,7 @@ body {
 }
 
 .col-5 {
-    background-color: #2196F3; /* Azul marino */
+    background-color: #2196F3; 
     border-radius: 10px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -26,11 +25,11 @@ body {
 h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #ffffff; /* Blanco */
+    color: #ffffff; 
 }
 
 .alert {
-    background-color: #44a5ff; /* Amarillo */
+    background-color: #44a5ff; 
     color: #333;
     padding: 10px;
     border-radius: 5px;
@@ -55,7 +54,7 @@ h2 {
 
 .btn {
     padding: 15px 30px;
-    background-color: #257aeb; /* Verde */
+    background-color: #257aeb; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -66,7 +65,7 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #225dff; /* Verde más oscuro */
+    background-color: #225dff; 
 }
 
 /* Estilos para el pie de página */

@@ -8,11 +8,15 @@ class ProfileController extends Controller
 {
     public function index()
     {
-       return view ('inicio');
+       echo view ('header_view');
+       echo view ('inicio');
+       echo view ('footer_view');
     }
     
     public function admin()
     {
-        return view ('admin');
+        echo view ('header_admin');
+        echo view ('admin');
+        echo view ('footer_view');
     }
 }
