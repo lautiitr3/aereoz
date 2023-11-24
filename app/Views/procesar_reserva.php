@@ -29,5 +29,6 @@
         </div>
     </header>
     <h2>Gracias por tu reserva. Tus datos se han registrado correctamente.</h2>
+    <a href="<?= site_url('/demo-pdf')?>">Descargar Pasajes</a>
 </body>
 </html>

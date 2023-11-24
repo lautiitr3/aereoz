@@ -57,6 +57,7 @@ class VuelosController extends Controller
 
     public function destinos()
     {
+       
         $vuelomodelo = new VueloModel();
         $vuelos['vuel'] = $vuelomodelo->vervuelos();
         return view('destinos', $vuelos);

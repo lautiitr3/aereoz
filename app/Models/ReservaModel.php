@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class ReservaModel extends Model
 {
     
-    protected $table = 'reservas'; // Nombre de la tabla en la base de datos
+    protected $table = 'reservas'; 
 
     protected $allowedFields = [
         'id_reserva',

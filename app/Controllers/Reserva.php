@@ -4,6 +4,8 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\ReservaModel;
 use App\Models\VueloModel;
+use Dompdf\Dompdf;
+
 
 class Reserva extends Controller
 {
@@ -33,7 +35,6 @@ class Reserva extends Controller
         $model->procesar($data);
         $precio = new VueloModel();
         $datos['total']= $precio->verprecio($id_vuelo);
-        //var_dump($datos);
         return view('metodos_pago', $datos);
     }
     
@@ -41,4 +42,5 @@ class Reserva extends Controller
     {
         return view ('procesar_reserva');
     }
+
 }
