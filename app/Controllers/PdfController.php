@@ -1,26 +1,16 @@
-<?php 
+<?php
 
 namespace App\Controllers;
-use CodeIgniter\Controller;
-use App\Models\VueloModel;
 
+use App\Models\ReservasModel;
 
-
-
-class VuelosController extends Controller
+class PdfController extends BaseController
 {
-    public function pdf(){
-        return view('pdf');
-    }
+    public function detalleReserva($id_reserva)
+    {
+        $reservasModel = new ReservasModel();
+        $detalleReserva = $reservasModel->getReservaDetails($id_reserva);
 
-    protected $vueloModel;
-
-    public function paseaboradje(){
-        $abordaje = array(
-            'destino' => $this->request->getPost('destino'),
-            'precio' => $this->request->getPost('precio'),
-            'origen' => $this->request->getPost('origen'),
-            'fecha' => $this->request->getPost('fecha'),
-        );
+        return view('pdf', ['detalleReserva' => $detalleReserva]);
     }
 }

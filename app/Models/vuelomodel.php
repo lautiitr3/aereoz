@@ -12,6 +12,7 @@ class VueloModel extends Model
         'id_vuelo',
         'origen',
         'destino',
+        'salida',
         'precio',
         'fecha',
         'id_imagen',
@@ -26,7 +27,7 @@ class VueloModel extends Model
     public function vervuelos()
     {
         return $this->db->query(
-            "SELECT v.id_vuelo,v.origen,v.destino,v.fecha,v.precio,i.nombre FROM vuelo AS v
+            "SELECT v.id_vuelo,v.origen,v.destino,v.fecha,v.salida,v.precio,i.nombre FROM vuelo AS v
             INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen"
         )->getResultArray();
     }

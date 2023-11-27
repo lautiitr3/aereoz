@@ -39,6 +39,7 @@
                 <h2 class="destination"> Destino: <?php echo $vuelos['destino']; ?></h2>
                     <p>Origen: <?php echo $vuelos['origen']; ?></p>
                     <p>Fecha: <?php echo $vuelos['fecha']; ?></p>
+                    <p>Hora De Salida: <?php echo $vuelos['salida']; ?></p>
                     <p>Precio: <?php echo $vuelos['precio']; ?></p>
                     <a class="reserve-link" href="<?= base_url('pagina_reserva/').$vuelos['id_vuelo'] ?>"> <button class="reserve-button">Reservar</button></a>
                 </div>
