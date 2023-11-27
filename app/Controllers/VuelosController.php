@@ -45,6 +45,7 @@ class VuelosController extends Controller
                 'precio' => $this->request->getPost('precio'),
                 'origen' => $this->request->getPost('origen'),
                 'fecha' => $this->request->getPost('fecha'),
+                'salida' => $this->request->getPost('salida'),
                 'id_imagen' => $idNuevaImagen,
             );
 
