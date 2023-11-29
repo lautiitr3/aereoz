@@ -1,3 +1,6 @@
+<?php
+ob_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,7 +82,7 @@
                                             <div><span class="d-block font-weight-bold">Pasajero</span><span><?php echo $abordaje['nombre']; ?></span></div>
                                             <div class="mt-3"><span class="d-block font-weight-bold">Asiento</span><span><?php echo $abordaje['asientos']; ?></span></div>
                                         </div>
-                                        <div class="d-flex flex-column justify-content-between"><img class="img-fluid" src="https://i.imgur.com/DlgOLIW.png" alt="Logo de la aerolínea"></div>
+                                        <div class="d-flex flex-column justify-content-between"><img class="img-fluid" src="<?= base_url ("image/qr.png")?>" alt="Logo de la aerolínea"></div>
                                     </div>
                                 </div>
                             </div>
@@ -95,3 +98,21 @@
     </div>
 </body>
 </html>
+<?php
+$html=ob_get_clean();
+echo$html;
+use Dompdf\Dompdf;
+$dompdf = new Dompdf();
+
+$options = $dompdf->getOptions();
+$options->set(array('isRemoteEnabled' => true));
+$dompdf->setOptions($options);
+
+$dompdf->loadHtml('hello world');
+
+$dompdf->setPaper('A4', 'landscape');
+
+$dompdf->render();
+
+$dompdf->stream("Boardingpass.pdf",array("Attachment" =>false));
+?>

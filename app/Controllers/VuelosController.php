@@ -25,14 +25,7 @@ class VuelosController extends Controller
         return view('subirvuelos');
     }
 
-    public function procesarBusqueda(){
-        $searchTerm = $this->request->getGet('search_term');
-
-        $busquedaModel = new Busqueda();
-        $data['vuelo'] = $busquedaModel->buscarVuelos($searchTerm);
-
-        return view('resultado_busqueda' , $data);
-    }    
+  
 
     public function subirvuelos()
     {
