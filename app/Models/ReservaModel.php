@@ -28,18 +28,13 @@ class ReservaModel extends Model
         $this->insert($data);
     }
 
-    public function getReservaDetails($id_reserva)
+    public function boardingpass($id_vuelo)
     {
-        $db = db_connect();
-
-        $query = $db->table('reservas');
-        $query->select('reservas.*, vuelos.destino, vuelos.origen, vuelos.precio, vuelos.fecha, vuelos.salida');
-
-        $query->join('vuelos', 'reservas.id_vuelo = vuelos.id_vuelo');
-
-        $query->where('reservas.id_reserva', $id_reserva);
-
-        return $query->get()->getRow();
+       
+        return $this->db->query(
+            "SELECT r.nombre,r.apellidos,r.asientos,v.origen,v.destino,v.fecha,v.salida,v.precio FROM reservas AS r 
+            INNER JOIN vuelo AS v ON v.id_vuelo = 48 AND r.id_vuelo=48"
+        )->getResultArray();
     }
 
 }

@@ -14,6 +14,9 @@
                 <img src="<?php echo base_url("/image/logon.png")?>" alt="Aereoz Logo">
             </div>
             <nav class="mainnav">
+            <form action="<?= base_url('procesarBusqueda') ?>" method="get">
+                <input class="search-input" type="text" name="search_term" placeholder="Buscar Vuelos">
+                <button class="seach-button" type="submit">Buscar</button>
                 <ul>
                     <li><a href="http://localhost/aereoz/public/index.php/profile">Inicio</a></li>
                     <li><a href="http://localhost/aereoz/public/VuelosController/destinos"> Destinos</a></li>
@@ -36,6 +39,7 @@
                     <img src="<?php echo $vuelos['nombre']; ?>" alt="<?php echo $vuelos['destino']; ?>">
                 </div>
                 <div class="flight-details">
+                    
                 <h2 class="destination"> Destino: <?php echo $vuelos['destino']; ?></h2>
                     <p>Origen: <?php echo $vuelos['origen']; ?></p>
                     <p>Fecha: <?php echo $vuelos['fecha']; ?></p>

@@ -2,15 +2,15 @@
 
 namespace App\Controllers;
 
-use App\Models\ReservasModel;
+use App\Models\ReservaModel;
 
 class PdfController extends BaseController
 {
-    public function detalleReserva($id_reserva)
+    public function boardingpass()
     {
-        $reservasModel = new ReservasModel();
-        $detalleReserva = $reservasModel->getReservaDetails($id_reserva);
-
-        return view('pdf', ['detalleReserva' => $detalleReserva]);
+        $reservamodelo = new ReservaModel();
+        $id_vuelo=$this->request->getPost('id_vuelo');
+        $abordaje['pase'] = $reservamodelo->boardingpass( $id_vuelo);
+        return view('pdf', $abordaje);
     }
 }

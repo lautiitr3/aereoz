@@ -5,6 +5,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\VueloModel;
 use App\Models\ImagenModel;
+use App\Models\Busqueda;
 
 
 
@@ -23,6 +24,15 @@ class VuelosController extends Controller
         echo view ('header_admin');
         return view('subirvuelos');
     }
+
+    public function procesarBusqueda(){
+        $searchTerm = $this->request->getGet('search_term');
+
+        $busquedaModel = new Busqueda();
+        $data['vuelo'] = $busquedaModel->buscarVuelos($searchTerm);
+
+        return view('resultado_busqueda' , $data);
+    }    
 
     public function subirvuelos()
     {

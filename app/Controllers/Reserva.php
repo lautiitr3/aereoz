@@ -31,6 +31,7 @@ class Reserva extends Controller
             'nacionalidad' => $this->request->getPost('nacionalidad'),
             'dni' => $this->request->getPost('dni'),
             'asientos' => $this->request->getPost('asientos'),
+            'id_vuelo' =>$this->request->getPost('id_vuelo'),
         );
         $model->procesar($data);
         $precio = new VueloModel();
