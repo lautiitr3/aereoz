@@ -29,6 +29,6 @@
         </div>
     </header>
     <h2>Gracias por tu reserva. Tus datos se han registrado correctamente.</h2>
-    <a href="<?= site_url('/boardingpass')?>">Descargar Pasajes</a>
+    <a href="<?= site_url('pdf/generate') ?>" class="btn btn-primary">Descargar Pasaje</a>
 </body>
 </html>

@@ -5,7 +5,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\VueloModel;
 use App\Models\ImagenModel;
-use App\Models\Busqueda;
+//use App\Models\Busqueda;
 
 
 

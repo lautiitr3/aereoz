@@ -9,6 +9,17 @@ use Dompdf\Dompdf;
 
 class Reserva extends Controller
 {
+    public function demoPDF (){
+        $dompdf = new Dompdf();
+        $dompdf->loadHtml('hello world');
+
+        $dompdf->setPaper('A4', 'portrait');
+
+        $dompdf->render();
+
+        $dompdf->stream();
+    }
+
     public function procesar($id_vuelo)
     {
     

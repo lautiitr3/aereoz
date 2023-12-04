@@ -1,16 +1,3 @@
-<?php
-ob_start();
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalle de la Reserva</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +5,7 @@ ob_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle de la Reserva</title>
     <link rel="stylesheet" href="estilos.css"> <!-- Agrega el enlace a tu hoja de estilos aquí -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <style>
@@ -28,7 +16,7 @@ ob_start();
 
 
 .bg-blue {
-  background: ;
+  background: white;
 }
 
 .dotted-line {
@@ -94,25 +82,3 @@ ob_start();
     </div>
 </body>
 </html>
-
-    </div>
-</body>
-</html>
-<?php
-$html=ob_get_clean();
-echo$html;
-use Dompdf\Dompdf;
-$dompdf = new Dompdf();
-
-$options = $dompdf->getOptions();
-$options->set(array('isRemoteEnabled' => true));
-$dompdf->setOptions($options);
-
-$dompdf->loadHtml('hello world');
-
-$dompdf->setPaper('A4', 'landscape');
-
-$dompdf->render();
-
-$dompdf->stream("Boardingpass.pdf",array("Attachment" =>false));
-?>

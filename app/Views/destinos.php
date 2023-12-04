@@ -14,7 +14,6 @@
                 <img src="<?php echo base_url("/image/logon.png")?>" alt="Aereoz Logo">
             </div>
             <nav class="mainnav">
-            <form action="<?= base_url('procesarBusqueda') ?>" method="get">
                 <input class="search-input" type="text" name="search_term" placeholder="Buscar Vuelos">
                 <button class="seach-button" type="submit">Buscar</button>
                 <ul>
