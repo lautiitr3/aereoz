@@ -14,8 +14,18 @@
                 <img src="<?php echo base_url("/image/logon.png")?>" alt="Aereoz Logo">
             </div>
             <nav class="mainnav">
-                <input class="search-input" type="text" name="search_term" placeholder="Buscar Vuelos">
-                <button class="seach-button" type="submit">Buscar</button>
+                <!-- Formulario de búsqueda -->
+            <form action="<?= base_url('VuelosController/buscarDestinos') ?>" method="post">
+                <label for="search_term"></label>
+                <input type="text" name="search_term" id="search_term" placeholder="Buscar Vuelo"/>
+                <select name="search_option" id="search_option">
+                    <option value="nombre">Nombre</option>
+                    <option value="precio">Precio</option>
+                    <option value="fecha">Fecha</option>
+                </select>
+                <button type="submit">Buscar</button>
+            </form>
+
                 <ul>
                     <li><a href="http://localhost/aereoz/public/index.php/profile">Inicio</a></li>
                     <li><a href="http://localhost/aereoz/public/VuelosController/destinos"> Destinos</a></li>

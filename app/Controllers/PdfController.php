@@ -21,6 +21,7 @@ class PdfController extends BaseController
         $options = new Options();
         $options->set('isHtml5ParserEnabled', true);
         $options->set('isPhpEnabled', true);
+        $options->set(array('isRemoteEnabled' => true));
 
         $dompdf = new Dompdf($options);
 

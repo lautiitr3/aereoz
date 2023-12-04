@@ -24,4 +24,5 @@ $routes->post('procesado', 'Reserva::datossubidos',['filter' => 'authGuard']);
 $routes->post('/confirmar','VuelosController::confirmar',['filter' => 'authGuard']);
 $routes->get('/logout', 'SigninController::logout');
 $routes->get('/reserva','Reserva::reserva',['filter' => 'authGuard']);
-$routes->get('pdf/generate', 'PdfController::generatePdf');
+$routes->get('pdf/generate', 'PdfController::generatePdf',['filter' => 'authGuard']);
+$routes->post('VuelosController/buscarDestinos', 'VuelosController::buscarDestinos');

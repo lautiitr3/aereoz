@@ -24,6 +24,7 @@ class VueloModel extends Model
         var_dump($vuelos);
         $this->insert($vuelos);
     }
+
     public function vervuelos()
     {
         return $this->db->query(
@@ -31,11 +32,42 @@ class VueloModel extends Model
             INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen"
         )->getResultArray();
     }
+
     public function verprecio($id_vuelo)
     {
         return $this->db->query(
             "SELECT v.id_vuelo, v.precio FROM vuelo AS v where id_vuelo=$id_vuelo"
         )->getResultArray();
+    }
+
+    public function buscarDestinosPorNombre($searchTerm)
+    {
+        return $this->db->query(
+            "SELECT v.id_vuelo, v.origen, v.destino, v.fecha, v.salida, v.precio, i.nombre 
+            FROM vuelo AS v
+            INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen
+            WHERE v.destino LIKE '%$searchTerm%'"
+        )->getResultArray();
+    }
+
+    public function buscarDestinosPorPrecio($searchTerm)
+    {
+    return $this->db->query(
+        "SELECT v.id_vuelo, v.origen, v.destino, v.fecha, v.salida, v.precio, i.nombre 
+        FROM vuelo AS v
+        INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen
+        WHERE v.precio LIKE '%$searchTerm%'"
+    )->getResultArray();
+    }
+
+    public function buscarDestinosPorFecha($searchTerm)
+    {
+    return $this->db->query(
+        "SELECT v.id_vuelo, v.origen, v.destino, v.fecha, v.salida, v.precio, i.nombre 
+        FROM vuelo AS v
+        INNER JOIN imagenes AS i ON i.id_imagen = v.id_imagen
+        WHERE v.fecha LIKE '%$searchTerm%'"
+    )->getResultArray();
     }
 
 }

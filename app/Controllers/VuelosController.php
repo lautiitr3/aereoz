@@ -5,7 +5,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\VueloModel;
 use App\Models\ImagenModel;
-//use App\Models\Busqueda;
+
 
 
 
@@ -67,6 +67,37 @@ class VuelosController extends Controller
         return view('destinos', $vuelos);
         echo view ('footer_view');
     }
+
+    public function buscarDestinos()
+{
+    $vuelomodelo = new VueloModel();
+    $searchTerm = $this->request->getPost('search_term');
+    $searchOption = $this->request->getPost('search_option');
+
+    // Validación básica
+    if (!empty($searchTerm)) {
+        switch ($searchOption) {
+            case 'nombre':
+                $data['vuel'] = $vuelomodelo->buscarDestinosPorNombre($searchTerm);
+                break;
+            case 'precio':
+                $data['vuel'] = $vuelomodelo->buscarDestinosPorPrecio($searchTerm);
+                break;
+            case 'fecha':
+                $data['vuel'] = $vuelomodelo->buscarDestinosPorFecha($searchTerm);
+                break;
+            default:
+                // Si la opción no es válida, carga todos los destinos
+                $data['vuel'] = $vuelomodelo->vervuelos();
+                break;
+        }
+    } else {
+        // Si el término de búsqueda está vacío, carga todos los destinos
+        $data['vuel'] = $vuelomodelo->vervuelos();
+    }
+
+    return view('destinos', $data);
+}
 
     public function precio()
     {
