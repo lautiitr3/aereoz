@@ -31,7 +31,10 @@ class Reserva extends Controller
     public function datossubidos()
     {
         $model = new ReservaModel();
-        $id_vuelo=$this->request->getPost('id_vuelo');
+        
+        $id_vuelo = $this->request->getPost('id_vuelo');
+        $email = $this->request->getPost('email');
+
         $data = array(
             'nombre' => $this->request->getPost('nombre'),
             'apellidos' => $this->request->getPost('apellidos'),
@@ -42,12 +45,29 @@ class Reserva extends Controller
             'nacionalidad' => $this->request->getPost('nacionalidad'),
             'dni' => $this->request->getPost('dni'),
             'asientos' => $this->request->getPost('asientos'),
-            'id_vuelo' =>$this->request->getPost('id_vuelo'),
+            'id_vuelo' => $id_vuelo,
         );
+
+       
+        
         $model->procesar($data);
         $precio = new VueloModel();
-        $datos['total']= $precio->verprecio($id_vuelo);
-        return view('metodos_pago', $datos);
+        $datos['total'] = $precio->verprecio($id_vuelo);
+        
+        $reserva = new ReservaModel();       
+
+        // Obtén el servicio de sesión
+        $session = session();
+
+        $id_reserva = $reserva->ultima_resera($email);
+
+
+        // Guarda la variable en sesión
+        $session->set('id_reserva', $id_reserva);
+
+        $miVariableRecuperada = $session->get('id_reserva');
+
+       return view('metodos_pago', $datos);
     }
     
     public function reserva()

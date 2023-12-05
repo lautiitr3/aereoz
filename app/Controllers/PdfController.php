@@ -11,9 +11,19 @@ class PdfController extends BaseController
     public function generatePdf()
     {
         $reservamodelo = new ReservaModel();
-        $id_vuelo = $this->request->getPost('id_vuelo');
-        $data['pase'] = $reservamodelo->boardingpass($id_vuelo);
 
+        //$id_vuelo = $this->request->getPost('id_vuelo');
+
+        //$id_vuelo = session()->get('id_vuelo');
+
+        // Obtén el servicio de sesión
+        $session = session();
+
+        // Recupera la variable de sesión por su nombre
+        $id_reserva = $session->get('id_reserva');
+
+        $data['pase'] = $reservamodelo->boardingpass($id_reserva);
+        
         // Cargar la vista pdf.php
         $html = view('pdf', $data);
 
