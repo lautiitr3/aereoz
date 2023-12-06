@@ -51,6 +51,7 @@ class Reserva extends Controller
        
         
         $model->procesar($data);
+        
         $precio = new VueloModel();
         $datos['total'] = $precio->verprecio($id_vuelo);
         
