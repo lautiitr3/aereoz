@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-header {
+    background-color: #87CEEB; /* Celeste */
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header .logo img {
+    max-width: 80px; /* Tamaño más pequeño */
+    height: auto;
+}
+
+.main-nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos para la sección de agradecimiento */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+
+
+/* Estilos para el enlace de descarga (botón) */
+.btn {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 30px; /* Hacer el botón más grande */
+    margin-top: 30px; /* Mayor espacio superior */
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border: 2px solid #2980b9; /* Borde sólido */
+    border-radius: 8px; /* Esquinas redondeadas */
+    font-size: 18px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones para suavizar cambios */   
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+
